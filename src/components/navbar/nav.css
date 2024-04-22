@@ -1,0 +1,57 @@
+.container-fluid {
+    height: 60px;
+    background-color: #0E46A3  ;
+    display: flex;
+    justify-content: center;
+   
+    /* font-Family:"SF Pro Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"                  */
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 3px;
+}
+.nav-link {
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 15px;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+    /* font-Family:"SF Pro Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"                  */
+    
+   
+}
+.navbar-brand {
+    font-weight: 1000;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    
+}
+
+
+.logout-button {
+    color: #1C1678;
+    background-color:white;
+    /* margin-left: 100px;
+    margin-right: 5px; */
+    margin-left: 10px;
+    margin-right: 3px;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+    /* font-Family:"SF Pro Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"                  */
+   
+    font-size: 20px;
+    
+}
+
+.logout-button:hover {
+    background-color: #1C1678;
+    color: white;
+}
