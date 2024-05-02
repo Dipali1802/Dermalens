@@ -18,18 +18,27 @@
 //     </div>
 //   );
 // }
-
+   
 // export default Landing;
 
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 // import Navbar from "../../components/navbar/nav";
 import "./landing.css";
 
 function Landing() {
   const [file, setFile] = useState();
+ const inputRef = useRef(null);
+ 
+ const handleUploadButtonClick = ()=> {
+  inputRef.current.click();
+  
+ };
 
-
+ const handleFileChange = (event) => {
+  const selectedFile = event.target.files[0];
+  setFile(selectedFile ? selectedFile.name : null);
+};
 // UPLOADING A FILE FROM DESKTOP 
 
 //  function handleFile (event)  {
@@ -56,21 +65,24 @@ function Landing() {
 //   });
 // }
   return (
+   
     <div className="App">
       
       <div className="landing">
         <div className="landing-content">
           <h2 className="title">Show us your skin concern</h2>
           <h5 className="subtitle">This will help us to identify your ailment</h5>
-          <form>
+          
             {/* <input type = " file" name = " file" onChange={handleFile}/> */}
           {/* <button>Upload from desktop</button> */}
-          
+         
+         
+          <div onClick={handleUploadButtonClick}> 
+    {/* <img src="" alt=""/> */}
+    <input type="file" ref={inputRef} style={{ display: "none" }} onChange={handleFileChange } />
           <button className="upload-button">Upload from desktop</button>
-
-          
-          
-          </form>
+          </div>
+          {file && <p>Selected File: {file}</p>}
         </div>
       </div>
     </div>
