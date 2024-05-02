@@ -6,7 +6,7 @@ const About = () => {
     <div className=" min-h-[30vw] flex flex-col lg:flex-row justify-between items-center lg:px-32 px-5 pt-10 lg:pt-5 gap-5  bg-teal-100" >
       <div className=" w-full lg:w-3/4 space-y-4" >
         <h1 className=" text-4xl font-semibold text-center lg:text-start text-black ">About Us</h1>
-        <p className=" text-justify lg:text-start text-black">
+        <p className="  lg:text-start text-black text-align-justify">
         At AiM4u, the health of our user is our priority. Research is the core of our organization.
 Our algorithm detects skin diseases with 95% accuracy.
 

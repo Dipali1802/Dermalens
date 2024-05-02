@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./nav.css";
 
-import logo from "../../images/logo.png";
+// import logo from "../../images/logo.png";
 
 // // const nav = () => {
 // //   return (
@@ -129,11 +129,9 @@ class nav extends Component {
               <li>
                 <a className = "active "href="home">Home</a>
               </li>
+              
               <li>
-                <a href="about">Our Services</a>
-              </li>
-              <li>
-                <a href="settings">Book Appointment</a>
+                <a href="appointment">Book Appointment</a>
               </li>
               <li>
                 <a href="profile">Profile</a>
