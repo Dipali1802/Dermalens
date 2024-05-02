@@ -60,21 +60,21 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row justify-between items-center px-[30%] pt-10 gap-5 bg-white">
+      <div className="flex flex-col lg:flex-row justify-between items-center px-[30%] pt-10 gap-5 bg-white text-justify">
         <div className="w-full space-y-4">
           <h1 className="text-4xl font-semibold text-center lg:text-start text-black">
             About Us
           </h1>
         </div>
       </div>
-      <div className="min-h-[25vw] flex flex-col lg:flex-row justify-between items-center px-[10%] gap-5 bg-white">
+      <div className="min-h-[25vw] flex flex-col lg:flex-row justify-between items-center px-[10%] gap-5 bg-green-200 text-justify">
         <div className="w-full space-y-4">
-          <p className="text-justify lg:text-start text-black">
+          <p className="text-justify  text-black">
             At AiM4u, the health of our user is our priority. Research is the
             core of our organization. Our algorithm detects skin diseases with
             95% accuracy.
           </p>
-          <p className="text-justify lg:text-start text-black">
+          <p className="text-justify  text-black">
             The preview of the Detection Algorithm can be used from the website
             in the features section. 90% of the skin patients do not visit a
             dermatologist. There are just 10,000 dermatologists for 1.3 billion

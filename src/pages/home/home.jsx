@@ -20,7 +20,7 @@ const Home = () => {
     <div className=" min-h-[30vw] flex flex-col justify-center lg:px-24 px-8 bg-white">
       <div className=" w-full space-y-5 mt-10 text-black text-center">
         <h1 className="text-5xl font-bold leading-tight text-black px-[42%] ">
-          <img src={logo} alt="DERMALENS" className="h-30 md:h-50 " />.
+          <img src={logo} alt="DERMALENS" className="h-30 md:h-50 " />
         </h1>
         <div className="text-2xl flex justify-center space-x-[1%] font-semibold">
           <a href="#" className="text-blue-900 hover:underline">
@@ -37,10 +37,7 @@ const Home = () => {
         </div>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magnam
-          omnis natus accusantium quos. Reprehenderit incidunt expedita
-          molestiae impedit at sequi dolorem iste sit culpa, optio voluptates
-          fugiat vero consequatur?
+        An AI powered Skincare Assistant to check your skin issues and connect with the dermatologists anytime, anywhere.
         </p>
 
         {/* <Button title="See Services" /> */}

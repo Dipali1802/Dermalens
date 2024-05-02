@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../layouts/button";
 
-const Contact = ({ closeForm }) => {
+const Appointments = ({ closeForm }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div className="popup-form absolute mt-12 text-black">
@@ -60,4 +60,4 @@ const Contact = ({ closeForm }) => {
   );
 };
 
-export default Contact;
+export default Appointments;
