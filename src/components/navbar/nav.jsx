@@ -86,7 +86,7 @@ class nav extends Component {
             {/* <img src={logo} alt = " DERMALENS " width="49"
               height="48"
               viewBox="0 0 49 48" /> */}
-<h1 className="text-[100%] font-bold leading-tight px-[10%]">
+<h1 className="text-[150%] font-bold leading-tight px-[10%]">
           <span className="text-neutral-50">DERMALENS</span>
         </h1>
             {/* <svg
