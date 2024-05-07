@@ -17,26 +17,27 @@ const Services = () => {
   return (
     <>
       <div className=" flex flex-col justify-center px-[30%] pt-10 bg-white text-black">
-        <div className=" flex flex-col items-center lg:flex-row justify-between ">
+        <div className=" flex flex-col items-center lg:flex-row justify-between  ">
           <div>
             <h1 className=" text-4xl font-semibold text-center lg:text-start">
               Our Services
             </h1>
             <p className=" mt-2 text-center lg:text-start">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
-              quidem.
+            Advanced Skincare Insights : Oily Skin and Dark Spot Detection
             </p>
           </div>
-          <div className=" mt-4 lg:mt-0">
+          <div className=" mt-4 lg:mt-0 ">
             {/* <Button title="See Services" /> */}
           </div>
         </div>
       </div>
-      <div className=" min-h-[30vw] flex flex-col justify-center px-[5%] bg-white text-black">
-        <div className=" flex flex-col lg:flex-row gap-5 pt-14 pb-10">
+      <div className=" min-h-[30vw] flex flex-col justify-center px-[5%] bg-white text-black  ">
+        <div className=" flex flex-col lg:flex-row gap-5 pt-14 pb-10 ">
           <ServicesCard icon={icon1} title="Comprehensive Disease Coverage" />
-          <ServicesCard icon={icon2} title="Health Check" />
-          <ServicesCard icon={icon3} title="Heart Health" />
+          <ServicesCard icon={icon2} title="Tailored Solutions for Oily Skin
+" />
+          <ServicesCard icon={icon3} title="Dark Spot Detection and Prevention 
+" />
         </div>
       </div>
     </>

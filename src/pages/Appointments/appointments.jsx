@@ -69,8 +69,8 @@ import DayScheduleButton from '../Appointments/dayschedule';
 export default function App() {
   return (
     <div>
-      <nav class="bg-gray-800">
-        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      {/* <nav class="bg-gray-800"> */}
+        {/* <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div class="relative flex items-center justify-between h-16">
             <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
               <div class="flex-shrink-0 flex items-center">
@@ -86,18 +86,18 @@ export default function App() {
                 />
               </div>
               <div class="hidden sm:block sm:ml-6">
-                <div class="flex space-x-4">
+                {/* <div class="flex space-x-4">
                   <a
                     href="#"
                     class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
                   </a>
-                </div>
-              </div>
+                </div> */}
+              {/* </div>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */} 
 
         <div class="hidden sm:hidden">
           <div class="px-2 pt-2 pb-3 space-y-1">
@@ -127,7 +127,7 @@ export default function App() {
             </a>
           </div>
         </div>
-      </nav>
+      {/* </nav> */}
       <div class="py-12 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="lg:text-center">
@@ -138,8 +138,7 @@ export default function App() {
               A better way to book appointments
             </p>
             <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            hiii helllo something msg
             </p>
             <DayScheduleButton />
           </div>

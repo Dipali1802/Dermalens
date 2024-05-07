@@ -20,7 +20,8 @@ const Footer = () => {
             // placeholder="An AI powered Skincare Assistant to check your skin issues and connect with the dermatologists anytime, anywhere."
             // className="text-gray-800 w-full outline-none"
           /> */}
-          <p className="text-white-800">An AI powered Skincare Assistant to check your skin issues and connect with the dermatologists anytime, anywhere.</p>
+          <p className="text-white-800">Get the app to start your skin journey now!
+Available on Android and IOS</p>
         </div>
       </div>
       <ItemsContainer />

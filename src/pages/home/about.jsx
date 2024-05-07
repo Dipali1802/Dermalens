@@ -56,7 +56,7 @@
 
 import React from "react";
 // import img from "../assets/img/about.jpg";
-
+import about from "../../images/about.jpeg";
 const About = () => {
   return (
     <>
@@ -67,14 +67,14 @@ const About = () => {
           </h1>
         </div>
       </div>
-      <div className="min-h-[25vw] flex flex-col lg:flex-row justify-between items-center px-[10%] gap-5 bg-green-200 text-justify">
+      <div className="min-h-[25vw] flex flex-col lg:flex-row justify-between items-center px-[10%] gap-5 bg-blue-800 text-justify">
         <div className="w-full space-y-4">
-          <p className="text-justify  text-black">
+          <p className="text-justify  text-white">
             At AiM4u, the health of our user is our priority. Research is the
             core of our organization. Our algorithm detects skin diseases with
             95% accuracy.
           </p>
-          <p className="text-justify  text-black">
+          <p className="text-justify  text-white">
             The preview of the Detection Algorithm can be used from the website
             in the features section. 90% of the skin patients do not visit a
             dermatologist. There are just 10,000 dermatologists for 1.3 billion
@@ -82,9 +82,9 @@ const About = () => {
             anywhere, at anytime.
           </p>
         </div>
-        <div className="w-full">
+        <div className="w-full ">
           {/* Assuming you have an image URL and want to display it */}
-          <img src="your_image_url.jpg" alt="About" className="rounded-lg" />
+          <img className=" rounded-lg w-64 h-64 mx-auto mt-8 mb-8" src={about} alt="img" />
         </div>
       </div>
 

@@ -14,11 +14,12 @@
 import React from "react";
 // import Button from "../layouts/Button";
 import logo from "../../images/logo.png";
-
+// import Homeee from "../../images/Homeee.jpg";
 const Home = () => {
   return (
-    <div className=" min-h-[30vw] flex flex-col justify-center lg:px-24 px-8 bg-white">
-      <div className=" w-full space-y-5 mt-10 text-black text-center">
+    <div className=" min-h-[30vw] flex flex-col justify-center bg-white lg:px-24 px-8 " >
+{/* <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 text-white  bg-no-repeat bg-cover opacity-90">  */}
+      <div className=" w-full space-y-5 mt-10 text-black text-center ">
         <h1 className="text-5xl font-bold leading-tight text-black px-[42%] ">
           <img src={logo} alt="DERMALENS" className="h-30 md:h-50 " />
         </h1>

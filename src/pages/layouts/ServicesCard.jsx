@@ -2,7 +2,7 @@ import React from "react";
 
 const ServicesCard = ({ icon, title }) => {
   return (
-    <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
+    <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out  text-white bg-blue-800">
       <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
         {icon}
       </div>
@@ -11,9 +11,9 @@ const ServicesCard = ({ icon, title }) => {
       Our model is designed to predict a wide range of skin diseases, including renowned conditions such as acne, psoriasis, eczema, and more. We go beyond the ordinary, offering insights into both common and less common dermatological issues.
       </p>
 
-      <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
+      {/* <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
         Learn more
-      </h3>
+      </h3> */}
     </div>
   );
 };

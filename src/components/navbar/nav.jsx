@@ -138,7 +138,10 @@ class nav extends Component {
               </li>
               
               <li className="px-[10%]">
-                <a href="helpandsupport">Help and Support</a>
+                <a href="contact">Help and Support</a>
+              </li>
+              <li className="px-[10%]">
+                <a href="login">Login</a>
               </li>
             </ul>
           </div>

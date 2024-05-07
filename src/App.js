@@ -8,17 +8,18 @@ import Profile from './pages/profile/profile';
 // import Settings from './pages/settings/settings';
 import Landing from './pages/landing/landing';
 import Footer from './components/footer/footer';
-import Contact from './pages/Appointments/appointments';
+import Appointments from './pages/Appointments/appointments';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
-import Logout from './pages/logout/logout';
+import Login from './pages/login/login';
+import Contact from './pages/contact/contact';
 function App() {
   return (
     <div className="App">
       
       <BrowserRouter>
       <Nav/>
-      
-        <Routes>
+      {/* <Login />    */}
+       <Routes>
        
           {/* ... (unchanged routes) */}
           <Route path="/" element={<Landing />} />
@@ -28,10 +29,10 @@ function App() {
           {/* <Route path="/support" element={<Support />} />
           <Route path="/settings" element={<Settings/>} /> */}
          {/* <Route path="/brainteaser" element={<Brainteaser />} /> */}
-         <Route path="/logout" element={<Logout/>} />
-         <Route path="/appointment" element={<Contact />} />
-
-         
+         {/* <Route path="/logout" element={<Logout/>} /> */}
+         <Route path="/appointment" element={<Appointments />} />
+         <Route path="/contact" element={<Contact/>} />
+         <Route path="/login" element={<Login/>} />
           
           {/* <Route path="/profile" element={<Profile />} />
           <Route path="/profile" element={<Profile />} />
