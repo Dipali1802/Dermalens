@@ -1,0 +1,29 @@
+ .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #4a90e2;
+  }
+  
+  .btn-edit-save {
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .btn-edit-save:hover {
+    background-color: #3579cc;
+  }
+   

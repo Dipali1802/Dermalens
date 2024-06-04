@@ -6,7 +6,7 @@ import SocialIcons from "./SocialIcons";
 const Footer = () => {
   return (
     <footer className="bg-neutral-950 text-white">
-      <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7"  >
+      {/* {/* <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7"  >
         <h1
           className="lg:text-3xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
@@ -20,19 +20,19 @@ const Footer = () => {
             // placeholder="An AI powered Skincare Assistant to check your skin issues and connect with the dermatologists anytime, anywhere."
             // className="text-gray-800 w-full outline-none"
           /> */}
-          <p className="text-white-800">Get the app to start your skin journey now!
+          {/* <p className="text-white-800">Get the app to start your skin journey now!
 Available on Android and IOS</p>
         </div>
-      </div>
+      </div> */}  
       <ItemsContainer />
       <div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
-      text-center pt-2 text-gray-400 text-sm pb-8"
-      >
-        <span>© 2020 Appy. All rights reserved.</span>
-        <span>Terms · Privacy Policy</span>
-        {/* <SocialIcons Icons={Icons} /> */}
-      </div>
+  className="flex flex-col sm:flex-row items-center justify-center text-center text-gray-400 text-sm pb-8"
+>
+  <span>Copyright © All rights reserved 2024 - by AIM4U Software Solutions, Mumbai Maharashtra.</span>
+  
+  {/* <SocialIcons Icons={Icons} /> */}
+</div>
+
     </footer>
   );
 };

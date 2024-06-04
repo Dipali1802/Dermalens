@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./nav.css";
 
 // import logo from "../../images/logo.png";
@@ -81,14 +81,20 @@ class nav extends Component {
     return (
       <>
         <nav>
-          <a class="navbar-brand" href="#">
+          {/* <a class="navbar-brand" to="https://aim4u.co.in/#/">DERMALENS</a> */}
             {/* <img src="logo.png" alt=""/> */}
             {/* <img src={logo} alt = " DERMALENS " width="49"
               height="48"
               viewBox="0 0 49 48" /> */}
-<h1 className="text-[150%] font-bold leading-tight px-[10%]">
-          <span className="text-neutral-50">DERMALENS</span>
-        </h1>
+<a href="https://aim4u.co.in/#/" className="text-[150%] hover:underline cursor-pointer font-bold leading-tight px-[0%]" >
+          <span className="text-neutral-50">DERMALENS</span> 
+       </ a>
+       
+       
+          
+
+        
+       
             {/* <svg
               id="logo-15"
               width="49"
@@ -120,7 +126,7 @@ class nav extends Component {
               ></path>{" "}
             </svg> */}
               
-          </a>
+          
           <div>
             <ul
               id="navbar"
@@ -138,7 +144,7 @@ class nav extends Component {
               </li>
               
               <li className="px-[10%]">
-                <a href="contact">Help and Support</a>
+                <a href="FAQ">FAQ's</a>
               </li>
               <li className="px-[10%]">
                 <a href="login">Login</a>

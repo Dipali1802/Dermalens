@@ -57,7 +57,9 @@
 }
 } */
 
-
+h1{
+  cursor: pointer;
+}
 
 nav {
   display: flex;
