@@ -116,7 +116,7 @@ const Profile = () => {
 
   const handleSave = () => {
     setIsEditing(false);
-    // Handle saving data to backend or local storage
+    // Handle savingzzzz data to backend or local storage
   };
 
   return (
