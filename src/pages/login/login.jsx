@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
-const Login = () => {
+const Login = ({ onLogin }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your login logic here
+    // Normally, you would perform authentication logic here
+    // For demonstration purposes, let's assume the login is successful
+    onLogin(); // This will set isLoggedIn to true in your App component
+    navigate('/profile'); // Navigate to the profile page
     console.log('Login submitted');
   };
 
@@ -19,9 +23,9 @@ const Login = () => {
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <input type="hidden" name="remember" defaultValue="true" />
-          <div className="rounded-lg shadow-sm -space-y-px  ">
+          <div className="rounded-lg shadow-sm -space-y-px">
             <div>
-              <label htmlFor="email-address" className="sr-only ">
+              <label htmlFor="email-address" className="sr-only">
                 Email address
               </label>
               <input
@@ -62,43 +66,24 @@ const Login = () => {
                 type="checkbox"
                 className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
               />
-               <label htmlFor="remember-me" className="ml-5 block font-semibold text-white">
+              <label htmlFor="remember-me" className="ml-5 block font-semibold text-white">
                 I agree to the terms and conditions
               </label>
             </div>
           </div>
 
           <div className="text-center">
-            <a href="/forgotpassword" className="font-semibold text-teal-200 hover:text-teal-300 ">
+            <Link to="/forgotpassword" className="font-semibold text-teal-200 hover:text-teal-300">
               Forgot your password?
-            </a>
+            </Link>
           </div>
 
           <div>
             <button
               type="submit"
-              className=" w-full   border border-transparent text-white focus:outline-none font-semibold        bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded"
+              className="relative w-full border border-transparent text-white focus:outline-none font-semibold bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded"
             >
-              <span className="absolute left-0 inset-y-0 flex items-center pl-3">
-                
-                <svg
-                  className="h-5 w-5 text-white group-hover:text-indigo-400"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 12a2 2 0 100-4 2 2 0 000 4z"
-                  />
-                  <path
-                    fillRule="evenodd"
-                    d="M4 8V6a4 4 0 014-4h4a4 4 0 014 4v2a4 4 0 014 4v4a4 4 0 01-4 4H8a4 4 0 01-4-4v-4a4 4 0 014-4zm6 8v-4h4v4h-4z"
-                  />
-                </svg>
-              </span>
-            Login
+              Login
             </button>
           </div>
         </form>
