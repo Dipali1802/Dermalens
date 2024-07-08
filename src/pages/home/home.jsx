@@ -6,7 +6,7 @@ import Screennn from "../../images/Screennn.png";
 const Homee = () => {
   return (
     <div
-      className="min-h-[30vw] flex flex-col justify-center  bg-cyan-200 bg-cover bg-center   mx-auto "
+      className="min-h-[40vw] md:min-h-[50vw] lg:min-h-[40vw]  flex flex-col justify-center  bg-cyan-200 bg-cover bg-center   mx-auto "
       style={{
         backgroundImage: `url(${Screennn})`, backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
@@ -15,7 +15,7 @@ const Homee = () => {
     >
      
 <div className=" bg-center w-full space-y-5 mt-10" >
-  <div className="absolute top-0 left-0 w-1/3 h-full flex flex-col justify-center  2items-end space-y-5 px-10">
+  <div className="relative top-0 left-0 w-1/3 h-full flex flex-col justify-center space-y-5 px-10">
     <div className="text-5xl font-bold leading-tight text-black">
       <img src={logo} className="h-30 md:h-50 " />
     </div>
