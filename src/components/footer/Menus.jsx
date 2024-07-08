@@ -5,10 +5,10 @@ export const  DEMO = [
    
   ];
   export const PRODUCTS = [
-    { name: "Home", link: "http://localhost:3000/home#" },
-    { name: "Book Appointment", link: "http://localhost:3000/appointment" },
+    { name: "Home", link: "/home" },
+    { name: "Book Appointment", link: "/appointment" },
     { name: "Contact", link: "#" },
-    { name: "FAQs", link: "http://localhost:3000/FAQ" },
+    { name: "FAQs", link: "/FAQ" },
   ];
   export const RESOURCES = [
     { name: "AiM4u Software Solutions Pvt Ltd, 8th Floor, SP-TBI,Munshi Nagar, Andheri(W)" },

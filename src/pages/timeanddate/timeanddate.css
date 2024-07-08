@@ -1,0 +1,34 @@
+/* src/custom-datetime.css */
+.rdtPicker {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  .rdtPicker .rdtTimeToggle,
+  .rdtPicker td,
+  .rdtPicker th {
+    color: #000000!important;
+  }
+  
+  .rdtPicker .rdtPrev span,
+  .rdtPicker .rdtNext span {
+    color: #000000 !important;
+  }
+  
+  .rdtPicker .rdtDay:hover,
+  .rdtPicker .rdtHour:hover,
+  .rdtPicker .rdtMinute:hover,
+  .rdtPicker .rdtSecond:hover {
+    background-color: #1f2937 !important; 
+  }
+  
+  .rdtActive,
+  .rdtActive:hover {
+    background-color: #1e40af !important; 
+    color: #ffffff !important;
+  }
+  
+  .rdtPicker .dow {
+    color: #9ca3af !important; 
+  }
+  

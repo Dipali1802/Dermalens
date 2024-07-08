@@ -19,7 +19,7 @@ const Login = () => {
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <input type="hidden" name="remember" defaultValue="true" />
-          <div className="rounded-md shadow-sm -space-y-px ">
+          <div className="rounded-lg shadow-sm -space-y-px  ">
             <div>
               <label htmlFor="email-address" className="sr-only ">
                 Email address
@@ -80,7 +80,7 @@ const Login = () => {
               className=" w-full   border border-transparent text-white focus:outline-none font-semibold        bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded"
             >
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
-                {/* Heroicon name: solid/lock-closed */}
+                
                 <svg
                   className="h-5 w-5 text-white group-hover:text-indigo-400"
                   xmlns="http://www.w3.org/2000/svg"

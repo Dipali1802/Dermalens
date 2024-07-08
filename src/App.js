@@ -12,9 +12,11 @@ import Appointments from './pages/Appointments/appointments';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import Login from './pages/login/login';
 import Forgotpassword from './pages/forgotpassword/forgotpassword';
-
-
 import FAQ from './pages/FAQ/faq';
+import Doctors from "./pages/doctors/doctors";
+import Timeanddate from "./pages/timeanddate/timeanddate";
+import Payment from "./pages/payment/payment";
+
 function App() {
   return (
     <div className="App">
@@ -29,19 +31,16 @@ function App() {
           <Route path="/home" element={<Landing />} />
 
           <Route path="/profile" element={<Profile/>} />
-          {/* <Route path="/support" element={<Support />} />
-          <Route path="/settings" element={<Settings/>} /> */}
-         {/* <Route path="/brainteaser" element={<Brainteaser />} /> */}
-         {/* <Route path="/logout" element={<Logout/>} /> */}
+        
          <Route path="/appointment" element={<Appointments />} />
+
          <Route path="/faq" element={<FAQ/>} />
         
          <Route path="/login" element={<Login />} />
         <Route path="/forgotpassword" element={<Forgotpassword />} />
-          {/* <Route path="/profile" element={<Profile />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/profile" element={<Profile />} /> */}
-          {/* <Route path="/" exact component={Landing} /> */}
+        <Route path="/doctors" element={<Doctors/>} />
+        <Route path="/timeanddate" element={<Timeanddate/>} />
+        <Route path="/payment" element={<Payment/>} />
         </Routes>
 
         <Footer/>
